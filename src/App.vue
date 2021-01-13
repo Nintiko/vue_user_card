@@ -11,7 +11,16 @@ export default {
   name: 'App',
   components: {
     UserCard
-  }
+  },
+  data(){
+    return {
+      UserCardInfo:{
+        Image : "",
+        Nickname: "lol",
+        FirstName: "MyFirstName",
+      }
+    }
+  },
 }
 </script>
 
