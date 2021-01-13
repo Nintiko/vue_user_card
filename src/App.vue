@@ -1,29 +1,32 @@
 <template>
   <div id="app">
-    <UserCard/>
+    <UserCard :userCardInfo="UserCardInfo" />
   </div>
 </template>
 
 <script>
-import UserCard from './components/UserCard.vue'
+import UserCard from "./components/UserCard.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    UserCard
+    UserCard,
   },
-  data(){
+  data() {
     return {
-      UserCardInfo:{
-        Image : "",
-        Nickname: "lol",
-        FirstName: "MyFirstName",
-      }
-    }
+      UserCardInfo: {
+        Image: "",
+        Nickname: "",
+        FirstName: "",
+        LastName: "",
+        Address: "",
+        Phone: "",
+        Email: "",
+      },
+    };
   },
-}
+};
 </script>
 
 <style>
-
 </style>

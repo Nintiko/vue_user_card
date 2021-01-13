@@ -1,10 +1,15 @@
 <template>
   <div class="user-card">
-    <UserImage />
-    <UserNickname />
-    <UserName />
+    <UserImage :val="userCardInfo.Image" />
+    <UserNickname :Nick="userCardInfo.Nickname" />
+    <UserName
+      :firstName="userCardInfo.FirstName"
+      :lastName="userCardInfo.LastName"
+    />
     <UserLine />
-    <UserInfo />
+    <UserInfo ImageVal="./img/location.png" :TextVal="userCardInfo.Address" />
+    <UserInfo ImageVal="./img/mail.png" :TextVal="userCardInfo.Email" />
+    <UserInfo ImageVal="./img/phone.png" :TextVal="userCardInfo.Phone" />
   </div>
 </template>
 
@@ -24,6 +29,7 @@ export default {
     UserLine,
     UserInfo,
   },
+  props: ["userCardInfo"],
 };
 </script>
 
