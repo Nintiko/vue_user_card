@@ -12,10 +12,10 @@ export default {
 </script>
 
 <style>
-.user-name {
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 1.4;
-  margin: 5px 0;
+.user-card .user-name {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.4;
+    margin: 5px 0;
 }
 </style>

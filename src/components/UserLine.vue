@@ -1,17 +1,15 @@
 <template>
-  <div>
-      <hr>
-  </div>
+  <hr />
 </template>
 
 <script>
 export default {
-  name: "Line",
+  name: "UserLine",
 };
 </script>
 
 <style>
-hr {
+.user-card hr {
   height: 4px;
   width: 50px;
   margin: 10px auto;

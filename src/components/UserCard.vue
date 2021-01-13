@@ -3,7 +3,8 @@
     <UserImage />
     <UserNickname />
     <UserName />
-    <Line />
+    <UserLine />
+    <UserInfo />
   </div>
 </template>
 
@@ -11,7 +12,8 @@
 import UserImage from "./UserImage.vue";
 import UserNickname from "./UserNickname.vue";
 import UserName from "./UserName.vue";
-import Line from "./Line.vue";
+import UserLine from "./UserLine.vue";
+import UserInfo from "./UserInfo.vue";
 
 export default {
   name: "UserCard",
@@ -19,7 +21,8 @@ export default {
     UserImage,
     UserNickname,
     UserName,
-    Line,
+    UserLine,
+    UserInfo,
   },
 };
 </script>
