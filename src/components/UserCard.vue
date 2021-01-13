@@ -1,10 +1,17 @@
 <template>
-  <div class="user-card"></div>
+  <div class="user-card">
+      <UserImage/>
+  </div>
 </template>
 
 <script>
+import UserImage from './UserImage.vue'
+
 export default {
   name: "UserCard",
+  components: {
+      UserImage,
+  },
 };
 </script>
 
