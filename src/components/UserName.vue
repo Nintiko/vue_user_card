@@ -1,5 +1,5 @@
 <template>
-  <p class="user-name">{{ firstname + " " + lastName }}<br /></p>
+  <p class="user-name">{{ firstName + " " + lastName }}<br /></p>
 </template>
 
 <script>

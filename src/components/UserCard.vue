@@ -1,6 +1,6 @@
 <template>
   <div class="user-card">
-    <UserImage :val="userCardInfo.Image" />
+    <UserImage :Val="userCardInfo.Image" />
     <UserNickname :Nick="userCardInfo.Nickname" />
     <UserName
       :firstName="userCardInfo.FirstName"
