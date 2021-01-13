@@ -1,16 +1,22 @@
 <template>
   <div class="user-card">
       <UserImage/>
+      <UserNickname/>
+      <UserName/>
   </div>
 </template>
 
 <script>
 import UserImage from './UserImage.vue'
+import UserNickname from './UserNickname.vue'
+import UserName from './UserName.vue'
 
 export default {
   name: "UserCard",
   components: {
       UserImage,
+      UserNickname,
+      UserName
   },
 };
 </script>
